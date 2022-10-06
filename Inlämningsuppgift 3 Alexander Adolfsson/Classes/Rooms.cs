@@ -36,6 +36,12 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson.Classes
         {
             Rooms room2 = new Rooms();
             room2.RoomNo = 2;
+            room2.LookedAround = false;
+            room2.IsRoomDark = false;
+            room2.Clue = "Grattis du tog dig ut från första rummet, men hur ska du ta dig vidare nu? Rummets väggar och tak är gjorda utav sten," +
+                "Dörren ser också ut att vara gjord utav sten. Förra rummet öppnades med en nyckel, kan det vara likadant i detta rum?";
+            room2.Furnitures = new List<Furnitures>();
+            room2.ItemsInRoom = new List<Items>();
             return room2;
         }
         public static Rooms CreateRoomThree()

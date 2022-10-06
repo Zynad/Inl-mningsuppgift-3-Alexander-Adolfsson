@@ -35,18 +35,15 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson
 
         private void CheckIInventorytemButton_Click(object sender, EventArgs e)
         {
-            string itemInformation = game.ReadItem(PlayerInventoryList.Text);
-            MessageBox.Show(itemInformation);
+            MessageBox.Show(game.ReadItem(PlayerInventoryList.Text));
         }
         private void CheckRoomItemButton_Click(object sender, EventArgs e)
         {
-            string itemInformation = game.ReadItem(RoomInventoryList.Text);
-            MessageBox.Show(itemInformation);
+            MessageBox.Show(game.ReadItem(RoomInventoryList.Text));
         }
         private void CheckFurnitureButton_Click(object sender, EventArgs e)
         {
-            string itemInformation = game.ReadItem(FurnitureList.Text);
-            MessageBox.Show(itemInformation);
+            MessageBox.Show(game.ReadItem(FurnitureList.Text));
         }
         
 
@@ -71,6 +68,27 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson
         private void RoomInfoButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(game.RoomInfo()); 
+        }
+        private void UseItemOnFurnitureButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(game.UseItemOnFurniture(PlayerInventoryList.Text, FurnitureList.Text));
+            UpdateGameBoard();
+        }
+
+        private void NextRoomButton_Click(object sender, EventArgs e)
+        {
+            game.GoToNextRoom();
+            UpdateGameBoard();
+        }
+
+        private void PreviousRoomButton_Click(object sender, EventArgs e)
+        {
+            game.GoToPreviousRoom();
+            UpdateGameBoard();
+        }
+        private void OpenFurnitureButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(game.OpenFurniture(FurnitureList.Text));
         }
         public void UpdateGameBoard()
         {
@@ -100,22 +118,6 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson
 
         }
 
-        private void UseItemOnFurnitureButton_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(game.UseItemOnFurniture(PlayerInventoryList.Text, FurnitureList.Text));
-            UpdateGameBoard();
-        }
 
-        private void NextRoomButton_Click(object sender, EventArgs e)
-        {
-            game.GoToNextRoom();
-            UpdateGameBoard();
-        }
-
-        private void PreviousRoomButton_Click(object sender, EventArgs e)
-        {
-            game.GoToPreviousRoom();
-            UpdateGameBoard();
-        }
     }
 }

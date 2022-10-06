@@ -62,66 +62,62 @@
             // PlayerInventoryList
             // 
             this.PlayerInventoryList.FormattingEnabled = true;
-            this.PlayerInventoryList.ItemHeight = 20;
-            this.PlayerInventoryList.Location = new System.Drawing.Point(1119, 169);
-            this.PlayerInventoryList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PlayerInventoryList.ItemHeight = 15;
+            this.PlayerInventoryList.Location = new System.Drawing.Point(979, 127);
             this.PlayerInventoryList.Name = "PlayerInventoryList";
-            this.PlayerInventoryList.Size = new System.Drawing.Size(174, 184);
+            this.PlayerInventoryList.Size = new System.Drawing.Size(153, 139);
             this.PlayerInventoryList.TabIndex = 0;
             // 
             // InventoryLabel
             // 
             this.InventoryLabel.AutoSize = true;
-            this.InventoryLabel.Location = new System.Drawing.Point(1119, 145);
+            this.InventoryLabel.Location = new System.Drawing.Point(979, 109);
             this.InventoryLabel.Name = "InventoryLabel";
-            this.InventoryLabel.Size = new System.Drawing.Size(131, 20);
+            this.InventoryLabel.Size = new System.Drawing.Size(103, 15);
             this.InventoryLabel.TabIndex = 1;
             this.InventoryLabel.Text = "Spelarens Föremål";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1119, 369);
+            this.label1.Location = new System.Drawing.Point(979, 277);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 20);
+            this.label1.Size = new System.Drawing.Size(102, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Föremål i rummet";
             // 
             // RoomInventoryList
             // 
             this.RoomInventoryList.FormattingEnabled = true;
-            this.RoomInventoryList.ItemHeight = 20;
-            this.RoomInventoryList.Location = new System.Drawing.Point(1119, 393);
-            this.RoomInventoryList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomInventoryList.ItemHeight = 15;
+            this.RoomInventoryList.Location = new System.Drawing.Point(979, 295);
             this.RoomInventoryList.Name = "RoomInventoryList";
-            this.RoomInventoryList.Size = new System.Drawing.Size(174, 124);
+            this.RoomInventoryList.Size = new System.Drawing.Size(153, 94);
             this.RoomInventoryList.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1119, 535);
+            this.label2.Location = new System.Drawing.Point(979, 401);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.Size = new System.Drawing.Size(97, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "Möbler i rummet";
             // 
             // FurnitureList
             // 
             this.FurnitureList.FormattingEnabled = true;
-            this.FurnitureList.ItemHeight = 20;
-            this.FurnitureList.Location = new System.Drawing.Point(1119, 559);
-            this.FurnitureList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FurnitureList.ItemHeight = 15;
+            this.FurnitureList.Location = new System.Drawing.Point(979, 419);
             this.FurnitureList.Name = "FurnitureList";
-            this.FurnitureList.Size = new System.Drawing.Size(174, 124);
+            this.FurnitureList.Size = new System.Drawing.Size(153, 94);
             this.FurnitureList.TabIndex = 4;
             // 
             // CombineButton
             // 
-            this.CombineButton.Location = new System.Drawing.Point(1026, 169);
-            this.CombineButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CombineButton.Location = new System.Drawing.Point(898, 127);
             this.CombineButton.Name = "CombineButton";
-            this.CombineButton.Size = new System.Drawing.Size(86, 53);
+            this.CombineButton.Size = new System.Drawing.Size(75, 40);
             this.CombineButton.TabIndex = 6;
             this.CombineButton.Text = "Kombinera föremål";
             this.CombineButton.UseVisualStyleBackColor = true;
@@ -129,18 +125,17 @@
             // RoomLabel
             // 
             this.RoomLabel.AutoSize = true;
-            this.RoomLabel.Location = new System.Drawing.Point(17, 225);
+            this.RoomLabel.Location = new System.Drawing.Point(15, 169);
             this.RoomLabel.Name = "RoomLabel";
-            this.RoomLabel.Size = new System.Drawing.Size(178, 20);
+            this.RoomLabel.Size = new System.Drawing.Size(143, 15);
             this.RoomLabel.TabIndex = 7;
             this.RoomLabel.Text = "Du befinner dig nu i rum :";
             // 
             // UseItemButton
             // 
-            this.UseItemButton.Location = new System.Drawing.Point(1026, 231);
-            this.UseItemButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UseItemButton.Location = new System.Drawing.Point(898, 173);
             this.UseItemButton.Name = "UseItemButton";
-            this.UseItemButton.Size = new System.Drawing.Size(86, 53);
+            this.UseItemButton.Size = new System.Drawing.Size(75, 40);
             this.UseItemButton.TabIndex = 6;
             this.UseItemButton.Text = "Använd Föremål";
             this.UseItemButton.UseVisualStyleBackColor = true;
@@ -150,18 +145,17 @@
             // 
             this.GameTitleLabel.AutoSize = true;
             this.GameTitleLabel.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GameTitleLabel.Location = new System.Drawing.Point(467, 32);
+            this.GameTitleLabel.Location = new System.Drawing.Point(409, 24);
             this.GameTitleLabel.Name = "GameTitleLabel";
-            this.GameTitleLabel.Size = new System.Drawing.Size(357, 49);
+            this.GameTitleLabel.Size = new System.Drawing.Size(281, 39);
             this.GameTitleLabel.TabIndex = 8;
             this.GameTitleLabel.Text = "Zynads Adventure";
             // 
             // ThrowItemButton
             // 
-            this.ThrowItemButton.Location = new System.Drawing.Point(934, 231);
-            this.ThrowItemButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ThrowItemButton.Location = new System.Drawing.Point(817, 173);
             this.ThrowItemButton.Name = "ThrowItemButton";
-            this.ThrowItemButton.Size = new System.Drawing.Size(86, 53);
+            this.ThrowItemButton.Size = new System.Drawing.Size(75, 40);
             this.ThrowItemButton.TabIndex = 6;
             this.ThrowItemButton.Text = "Kasta Föremål";
             this.ThrowItemButton.UseVisualStyleBackColor = true;
@@ -171,28 +165,26 @@
             // 
             this.PLayerInfoPanel.Controls.Add(this.PlayerNameLabel);
             this.PLayerInfoPanel.Controls.Add(this.RoomLabel);
-            this.PLayerInfoPanel.Location = new System.Drawing.Point(14, 169);
-            this.PLayerInfoPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PLayerInfoPanel.Location = new System.Drawing.Point(12, 127);
             this.PLayerInfoPanel.Name = "PLayerInfoPanel";
-            this.PLayerInfoPanel.Size = new System.Drawing.Size(325, 281);
+            this.PLayerInfoPanel.Size = new System.Drawing.Size(284, 211);
             this.PLayerInfoPanel.TabIndex = 9;
             // 
             // PlayerNameLabel
             // 
             this.PlayerNameLabel.AutoSize = true;
-            this.PlayerNameLabel.Location = new System.Drawing.Point(17, 17);
+            this.PlayerNameLabel.Location = new System.Drawing.Point(15, 13);
             this.PlayerNameLabel.Name = "PlayerNameLabel";
-            this.PlayerNameLabel.Size = new System.Drawing.Size(99, 20);
+            this.PlayerNameLabel.Size = new System.Drawing.Size(79, 15);
             this.PlayerNameLabel.TabIndex = 10;
             this.PlayerNameLabel.Text = "Spelarnamn : ";
             // 
             // StartGameButton
             // 
             this.StartGameButton.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.StartGameButton.Location = new System.Drawing.Point(451, 331);
-            this.StartGameButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.StartGameButton.Location = new System.Drawing.Point(395, 248);
             this.StartGameButton.Name = "StartGameButton";
-            this.StartGameButton.Size = new System.Drawing.Size(383, 204);
+            this.StartGameButton.Size = new System.Drawing.Size(335, 153);
             this.StartGameButton.TabIndex = 10;
             this.StartGameButton.Text = "Starta Spelet";
             this.StartGameButton.UseVisualStyleBackColor = true;
@@ -200,27 +192,25 @@
             // 
             // InsertNameBox
             // 
-            this.InsertNameBox.Location = new System.Drawing.Point(451, 292);
-            this.InsertNameBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InsertNameBox.Location = new System.Drawing.Point(395, 219);
             this.InsertNameBox.Name = "InsertNameBox";
-            this.InsertNameBox.Size = new System.Drawing.Size(172, 27);
+            this.InsertNameBox.Size = new System.Drawing.Size(151, 23);
             this.InsertNameBox.TabIndex = 11;
             // 
             // InserNameLabel
             // 
             this.InserNameLabel.AutoSize = true;
-            this.InserNameLabel.Location = new System.Drawing.Point(451, 264);
+            this.InserNameLabel.Location = new System.Drawing.Point(395, 198);
             this.InserNameLabel.Name = "InserNameLabel";
-            this.InserNameLabel.Size = new System.Drawing.Size(124, 20);
+            this.InserNameLabel.Size = new System.Drawing.Size(100, 15);
             this.InserNameLabel.TabIndex = 12;
             this.InserNameLabel.Text = "Skriv in ditt namn";
             // 
             // PickUpButton
             // 
-            this.PickUpButton.Location = new System.Drawing.Point(1026, 393);
-            this.PickUpButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PickUpButton.Location = new System.Drawing.Point(898, 295);
             this.PickUpButton.Name = "PickUpButton";
-            this.PickUpButton.Size = new System.Drawing.Size(86, 53);
+            this.PickUpButton.Size = new System.Drawing.Size(75, 40);
             this.PickUpButton.TabIndex = 6;
             this.PickUpButton.Text = "Ta upp föremål";
             this.PickUpButton.UseVisualStyleBackColor = true;
@@ -228,10 +218,9 @@
             // 
             // LookAroundButton
             // 
-            this.LookAroundButton.Location = new System.Drawing.Point(1026, 465);
-            this.LookAroundButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LookAroundButton.Location = new System.Drawing.Point(898, 349);
             this.LookAroundButton.Name = "LookAroundButton";
-            this.LookAroundButton.Size = new System.Drawing.Size(86, 53);
+            this.LookAroundButton.Size = new System.Drawing.Size(75, 40);
             this.LookAroundButton.TabIndex = 6;
             this.LookAroundButton.Text = "Kolla runt i rummet";
             this.LookAroundButton.UseVisualStyleBackColor = true;
@@ -239,10 +228,9 @@
             // 
             // UseItemOnFurnitureButton
             // 
-            this.UseItemOnFurnitureButton.Location = new System.Drawing.Point(1026, 559);
-            this.UseItemOnFurnitureButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UseItemOnFurnitureButton.Location = new System.Drawing.Point(898, 419);
             this.UseItemOnFurnitureButton.Name = "UseItemOnFurnitureButton";
-            this.UseItemOnFurnitureButton.Size = new System.Drawing.Size(86, 53);
+            this.UseItemOnFurnitureButton.Size = new System.Drawing.Size(75, 40);
             this.UseItemOnFurnitureButton.TabIndex = 6;
             this.UseItemOnFurnitureButton.Text = "Använd föremål på";
             this.UseItemOnFurnitureButton.UseVisualStyleBackColor = true;
@@ -250,10 +238,9 @@
             // 
             // RoomInfoButton
             // 
-            this.RoomInfoButton.Location = new System.Drawing.Point(31, 477);
-            this.RoomInfoButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomInfoButton.Location = new System.Drawing.Point(27, 358);
             this.RoomInfoButton.Name = "RoomInfoButton";
-            this.RoomInfoButton.Size = new System.Drawing.Size(123, 57);
+            this.RoomInfoButton.Size = new System.Drawing.Size(108, 43);
             this.RoomInfoButton.TabIndex = 13;
             this.RoomInfoButton.Text = "Rumsbeskrivning";
             this.RoomInfoButton.UseVisualStyleBackColor = true;
@@ -261,10 +248,9 @@
             // 
             // PreviousRoomButton
             // 
-            this.PreviousRoomButton.Location = new System.Drawing.Point(31, 623);
-            this.PreviousRoomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PreviousRoomButton.Location = new System.Drawing.Point(27, 467);
             this.PreviousRoomButton.Name = "PreviousRoomButton";
-            this.PreviousRoomButton.Size = new System.Drawing.Size(123, 57);
+            this.PreviousRoomButton.Size = new System.Drawing.Size(108, 43);
             this.PreviousRoomButton.TabIndex = 13;
             this.PreviousRoomButton.Text = "Gå till förra rummet";
             this.PreviousRoomButton.UseVisualStyleBackColor = true;
@@ -272,10 +258,9 @@
             // 
             // NextRoomButton
             // 
-            this.NextRoomButton.Location = new System.Drawing.Point(31, 551);
-            this.NextRoomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.NextRoomButton.Location = new System.Drawing.Point(27, 413);
             this.NextRoomButton.Name = "NextRoomButton";
-            this.NextRoomButton.Size = new System.Drawing.Size(123, 57);
+            this.NextRoomButton.Size = new System.Drawing.Size(108, 43);
             this.NextRoomButton.TabIndex = 13;
             this.NextRoomButton.Text = "Gå till nästa rum";
             this.NextRoomButton.UseVisualStyleBackColor = true;
@@ -283,10 +268,9 @@
             // 
             // CheckIInventorytemButton
             // 
-            this.CheckIInventorytemButton.Location = new System.Drawing.Point(934, 169);
-            this.CheckIInventorytemButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckIInventorytemButton.Location = new System.Drawing.Point(817, 127);
             this.CheckIInventorytemButton.Name = "CheckIInventorytemButton";
-            this.CheckIInventorytemButton.Size = new System.Drawing.Size(86, 53);
+            this.CheckIInventorytemButton.Size = new System.Drawing.Size(75, 40);
             this.CheckIInventorytemButton.TabIndex = 6;
             this.CheckIInventorytemButton.Text = "Granska föremål";
             this.CheckIInventorytemButton.UseVisualStyleBackColor = true;
@@ -294,10 +278,9 @@
             // 
             // CheckRoomItemButton
             // 
-            this.CheckRoomItemButton.Location = new System.Drawing.Point(934, 393);
-            this.CheckRoomItemButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckRoomItemButton.Location = new System.Drawing.Point(817, 295);
             this.CheckRoomItemButton.Name = "CheckRoomItemButton";
-            this.CheckRoomItemButton.Size = new System.Drawing.Size(86, 53);
+            this.CheckRoomItemButton.Size = new System.Drawing.Size(75, 40);
             this.CheckRoomItemButton.TabIndex = 6;
             this.CheckRoomItemButton.Text = "Granska föremål";
             this.CheckRoomItemButton.UseVisualStyleBackColor = true;
@@ -305,40 +288,37 @@
             // 
             // UseItemOnRoomItemButton
             // 
-            this.UseItemOnRoomItemButton.Location = new System.Drawing.Point(934, 465);
-            this.UseItemOnRoomItemButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UseItemOnRoomItemButton.Location = new System.Drawing.Point(817, 349);
             this.UseItemOnRoomItemButton.Name = "UseItemOnRoomItemButton";
-            this.UseItemOnRoomItemButton.Size = new System.Drawing.Size(86, 53);
+            this.UseItemOnRoomItemButton.Size = new System.Drawing.Size(75, 40);
             this.UseItemOnRoomItemButton.TabIndex = 6;
             this.UseItemOnRoomItemButton.Text = "Använd föremål på";
             this.UseItemOnRoomItemButton.UseVisualStyleBackColor = true;
             // 
             // SearchFurnitureButton
             // 
-            this.SearchFurnitureButton.Location = new System.Drawing.Point(1026, 620);
-            this.SearchFurnitureButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SearchFurnitureButton.Location = new System.Drawing.Point(898, 465);
             this.SearchFurnitureButton.Name = "SearchFurnitureButton";
-            this.SearchFurnitureButton.Size = new System.Drawing.Size(86, 53);
+            this.SearchFurnitureButton.Size = new System.Drawing.Size(75, 40);
             this.SearchFurnitureButton.TabIndex = 6;
             this.SearchFurnitureButton.Text = "Leta i möbeln";
             this.SearchFurnitureButton.UseVisualStyleBackColor = true;
             // 
             // OpenFurnitureButton
             // 
-            this.OpenFurnitureButton.Location = new System.Drawing.Point(934, 620);
-            this.OpenFurnitureButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.OpenFurnitureButton.Location = new System.Drawing.Point(817, 465);
             this.OpenFurnitureButton.Name = "OpenFurnitureButton";
-            this.OpenFurnitureButton.Size = new System.Drawing.Size(86, 53);
+            this.OpenFurnitureButton.Size = new System.Drawing.Size(75, 40);
             this.OpenFurnitureButton.TabIndex = 6;
             this.OpenFurnitureButton.Text = "Öppna möbeln";
             this.OpenFurnitureButton.UseVisualStyleBackColor = true;
+            this.OpenFurnitureButton.Click += new System.EventHandler(this.OpenFurnitureButton_Click);
             // 
             // CheckFurnitureButton
             // 
-            this.CheckFurnitureButton.Location = new System.Drawing.Point(934, 559);
-            this.CheckFurnitureButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckFurnitureButton.Location = new System.Drawing.Point(817, 419);
             this.CheckFurnitureButton.Name = "CheckFurnitureButton";
-            this.CheckFurnitureButton.Size = new System.Drawing.Size(86, 53);
+            this.CheckFurnitureButton.Size = new System.Drawing.Size(75, 40);
             this.CheckFurnitureButton.TabIndex = 6;
             this.CheckFurnitureButton.Text = "Granska föremål";
             this.CheckFurnitureButton.UseVisualStyleBackColor = true;
@@ -346,9 +326,9 @@
             // 
             // GameForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1330, 823);
+            this.ClientSize = new System.Drawing.Size(1164, 617);
             this.Controls.Add(this.NextRoomButton);
             this.Controls.Add(this.PreviousRoomButton);
             this.Controls.Add(this.RoomInfoButton);
@@ -375,6 +355,7 @@
             this.Controls.Add(this.RoomInventoryList);
             this.Controls.Add(this.InventoryLabel);
             this.Controls.Add(this.PlayerInventoryList);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GameForm";
             this.Text = "Zynads Adventure";
             this.PLayerInfoPanel.ResumeLayout(false);
