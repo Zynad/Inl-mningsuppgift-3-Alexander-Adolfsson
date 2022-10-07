@@ -34,7 +34,6 @@
             this.RoomInventoryList = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.FurnitureList = new System.Windows.Forms.ListBox();
-            this.CombineButton = new System.Windows.Forms.Button();
             this.RoomLabel = new System.Windows.Forms.Label();
             this.UseItemButton = new System.Windows.Forms.Button();
             this.GameTitleLabel = new System.Windows.Forms.Label();
@@ -113,15 +112,6 @@
             this.FurnitureList.Size = new System.Drawing.Size(153, 94);
             this.FurnitureList.TabIndex = 4;
             // 
-            // CombineButton
-            // 
-            this.CombineButton.Location = new System.Drawing.Point(898, 127);
-            this.CombineButton.Name = "CombineButton";
-            this.CombineButton.Size = new System.Drawing.Size(75, 40);
-            this.CombineButton.TabIndex = 6;
-            this.CombineButton.Text = "Kombinera föremål";
-            this.CombineButton.UseVisualStyleBackColor = true;
-            // 
             // RoomLabel
             // 
             this.RoomLabel.AutoSize = true;
@@ -133,7 +123,7 @@
             // 
             // UseItemButton
             // 
-            this.UseItemButton.Location = new System.Drawing.Point(898, 173);
+            this.UseItemButton.Location = new System.Drawing.Point(898, 127);
             this.UseItemButton.Name = "UseItemButton";
             this.UseItemButton.Size = new System.Drawing.Size(75, 40);
             this.UseItemButton.TabIndex = 6;
@@ -153,7 +143,7 @@
             // 
             // ThrowItemButton
             // 
-            this.ThrowItemButton.Location = new System.Drawing.Point(817, 173);
+            this.ThrowItemButton.Location = new System.Drawing.Point(898, 173);
             this.ThrowItemButton.Name = "ThrowItemButton";
             this.ThrowItemButton.Size = new System.Drawing.Size(75, 40);
             this.ThrowItemButton.TabIndex = 6;
@@ -294,6 +284,7 @@
             this.UseItemOnRoomItemButton.TabIndex = 6;
             this.UseItemOnRoomItemButton.Text = "Använd föremål på";
             this.UseItemOnRoomItemButton.UseVisualStyleBackColor = true;
+            this.UseItemOnRoomItemButton.Click += new System.EventHandler(this.UseItemOnRoomItemButton_Click);
             // 
             // SearchFurnitureButton
             // 
@@ -303,6 +294,7 @@
             this.SearchFurnitureButton.TabIndex = 6;
             this.SearchFurnitureButton.Text = "Leta i möbeln";
             this.SearchFurnitureButton.UseVisualStyleBackColor = true;
+            this.SearchFurnitureButton.Click += new System.EventHandler(this.SearchFurnitureButton_Click);
             // 
             // OpenFurnitureButton
             // 
@@ -348,7 +340,6 @@
             this.Controls.Add(this.CheckIInventorytemButton);
             this.Controls.Add(this.ThrowItemButton);
             this.Controls.Add(this.UseItemButton);
-            this.Controls.Add(this.CombineButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FurnitureList);
             this.Controls.Add(this.label1);
@@ -373,7 +364,6 @@
         private ListBox RoomInventoryList;
         private Label label2;
         private ListBox FurnitureList;
-        private Button CombineButton;
         private Label RoomLabel;
         private Button UseItemButton;
         private Label GameTitleLabel;

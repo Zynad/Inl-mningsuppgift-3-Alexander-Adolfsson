@@ -47,7 +47,8 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson.Classes
         public static Rooms CreateRoomThree()
         {
             Rooms room3 = new Rooms();
-            room3.RoomNo = 1;
+            room3.RoomNo = 3;
+            room3.Clue = "Det här är inget rum, du är fri! DU HAR VUNNIT!";
             return room3;
         }
         public static Rooms CreateRoomFour()

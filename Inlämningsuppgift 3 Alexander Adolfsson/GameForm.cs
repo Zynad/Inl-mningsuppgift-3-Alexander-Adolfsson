@@ -43,7 +43,7 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson
         }
         private void CheckFurnitureButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(game.ReadItem(FurnitureList.Text));
+            MessageBox.Show(game.ReadFurniture(FurnitureList.Text));
         }
         
 
@@ -89,6 +89,17 @@ namespace Inlämningsuppgift_3_Alexander_Adolfsson
         private void OpenFurnitureButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(game.OpenFurniture(FurnitureList.Text));
+            UpdateGameBoard();
+        }
+        private void SearchFurnitureButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(game.LookThroughFurniture(FurnitureList.Text));
+            UpdateGameBoard();
+        }
+        private void UseItemOnRoomItemButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(game.CombineItems(PlayerInventoryList.Text, RoomInventoryList.Text));
+            UpdateGameBoard();
         }
         public void UpdateGameBoard()
         {
